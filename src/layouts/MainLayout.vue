@@ -1,6 +1,6 @@
 <template>
   <q-layout view="hHh lpR fFf">
-    <q-header elevated class="bg-primary text-white" height-hint="98">
+    <q-header elevated class="bg-primary text-white " height-hint="98">
       <q-toolbar class="small-screen-only">
         <q-toolbar-title class="text-catscratch align-center">
           <img
@@ -11,17 +11,19 @@
           kittStagram
         </q-toolbar-title>
       </q-toolbar>
-      <div class="row no-wrap shadow-1">
-        <q-toolbar class="col-9 large-screen-only">
-          <q-toolbar-title class="text-catscratch">
+     
+        <q-toolbar class="large-screen-only constrain">
+        <div class="row">
+          <div class="col-10">
+          <q-toolbar-title class="text-catscratch text-left">
             <img
               src="~assets/kittyWalkW.png"
               style="height: 2em; max-width: 2em; padding-top: 0.4em"
             />
             kittStagram
           </q-toolbar-title>
-        </q-toolbar>
-        <q-toolbar class="col-3 large-screen-only align-right">
+          </div>
+          <div class="col-2 text-right">
           <q-btn
             to="/"
             flat
@@ -40,8 +42,10 @@
             class="q-pt-sm"
             size="18px"
           />
+          </div>
+        </div>
         </q-toolbar>
-      </div>
+      
     </q-header>
 
     <q-page-container class="bg-grey-1">

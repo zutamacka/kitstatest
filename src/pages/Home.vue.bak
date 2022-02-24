@@ -47,21 +47,6 @@
         </q-item>
       </div>
     </div>
-    <div class="row small-screen-only q-col-gutter-md">
-      <q-item class="bg-light-blue-1">
-        <q-item-section avatar>
-          <q-avatar size="48px">
-            <img src="~assets/MaineCoon.png" />
-          </q-avatar>
-        </q-item-section>
-
-        <q-item-section>
-          <q-item-label class="text-bold">Floofster</q-item-label>
-          <q-item-label caption>@Kittybox</q-item-label>
-          <q-item-label caption>@Kittybox</q-item-label>
-        </q-item-section>
-      </q-item>
-    </div>
   </q-page>
 </template>
 
@@ -81,16 +66,16 @@ export default defineComponent({
           imageUrl: 'https://cdn.quasar.dev/img/mountains.jpg',
         },
         {
-          id: 2,
-          caption: "Caturday",
+          id: 1,
+          caption: 'Caturday',
           date: 1638727646386,
           location: 'Kittybox',
           imageUrl:
             'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2a3iiiRFCp1m715iKCVP3eW6X16QcmHm5uw&usqp=CAU',
         },
         {
-          id: 3,
-          caption: "Working hard",
+          id: 1,
+          caption: 'Working hard',
           date: 1638727646386,
           location: 'Christmas',
           imageUrl: 'https://i.ytimg.com/vi/3fLGO9aI-bY/maxresdefault.jpg',
